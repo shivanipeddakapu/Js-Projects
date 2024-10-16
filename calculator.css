@@ -1,0 +1,31 @@
+div{
+    height: 370px;
+    width: 245px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: gainsboro;
+  }
+  body {
+      font-family:sans-serif;
+    }
+    .calculator {
+      width: 200px;
+      margin: 100px auto;
+    }
+    input {
+      width: 168px;
+      padding: 10px;
+      margin: 5px 5px;
+      background-color: rgba(175, 239, 239, 0.523);
+    }
+    button {
+      border-radius: 7px;
+      width: 35px;
+      padding: 10px;
+      margin: 5px;
+      background-color: white;
+    }
+    .equals{
+      background-color: orange;
+    }

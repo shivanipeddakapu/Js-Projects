@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #canvasContainer {
+            position: relative;
+        }
+
+        canvas {
+            border: 2px solid black;
+            background-color: white;
+        }
+
+        .instructions {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="canvasContainer">
+        <canvas id="drawCanvas" width="600" height="400"></canvas>
+        <div class="instructions">
+            <p>Press <strong>'R'</strong> for Red, <strong>'G'</strong> for Green, <strong>'B'</strong> for Blue, <strong>'C'</strong> to Clear Canvas</p>
+        </div>
+    </div>
+    <script src="./P1-Events.js"></script>
+</body>
+</html>
